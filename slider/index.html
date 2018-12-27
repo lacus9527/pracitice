@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="http://cdn.bootcss.com/">
+    <link rel="stylesheet" href="./style.css">
+    <title>一个简单的轮播 —— 基于jQuery</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="slider-box">
+            <h1>轮播图</h1>
+            <div class="slider">
+                <ul id="slider" class="slider-list clearfix">
+                    <li class="slider-item">
+                        <div class="com-img item-img"></div>
+                        <div class="item-text"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="control">
+                <div class="btn slider_left">上一张</div>
+                <div class="text">当前是第 <span class="slider_index com-bold">1</span> 张</div>
+                <div class="btn slider_right">下一张</div>
+            </div>
+
+            <div class="description">
+                <p>支持上一张，下一张，移入暂停，移出开始，定位到第 n 张</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
